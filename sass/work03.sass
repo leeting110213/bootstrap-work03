@@ -1,0 +1,148 @@
+@mixin hnpx($n)
+	.h#{$n}px
+		height: #{$n}px
+@mixin wnpx($n)
+	.w#{$n}px
+		width: #{$n}px
+
+@include hnpx(300)
+@include hnpx(580)
+@include wnpx(505)
+@include wnpx(80)
+@include hnpx(32)
+@include wnpx(45)
+@include hnpx(26)
+@include wnpx(32)
+@include hnpx(200)
+@include hnpx(192)
+@include hnpx(64)
+@include hnpx(10)
+
+
+.cal-title
+	bottom: 12%
+	left:8rem
+
+
+.btn-heater
+
+	background-color:#595856
+	position: absolute
+	right: 10px
+	border-radius: 5px
+
+.carousel-position-rs
+	position: absolute
+.carousel-position
+	position: absolute
+	right: 10px
+	bottom: 50%
+	opacity: 0
+header:hover .carousel-position
+	opacity: 1
+.carousel-title
+	text-shadow:2px 2px 4px #000000
+	width: 35vw
+	text-align: left
+.logo
+	text-decoration: none
+.btn-outline-info:hover
+	color: white
+.ls
+	line-height:1.2em
+.tx-sz
+	letter-spacing: -0.1em
+	line-height: 1.82
+	text-align: center
+	font-size: 15px
+.tx-col
+	background-color: #c8c8c893
+.nav-flx
+	position: fixed
+	top: 30vh
+.nav-hover
+	display: none
+.nav-item:hover
+	background-color: white
+	border-radius: 10px
+.nav-item:hover .nav-hover
+	display: block
+.img_size
+	height: 75vh
+.carousel-indicators-posi
+	bottom: -70px
+.card-width
+	width: 80vw
+	position: relative
+	margin-left: 10%
+	display: flex
+	flex-wrap: wrap
+.tag
+	width: 45px
+	height: 25px
+	font-size: 10px
+	padding-top: 3px
+	padding-bottom: 3px
+	padding-left: 3px
+	padding-right: 3px
+	text-align: center
+	background-color: #acabab
+.tag:hover
+	background-color: #acabab
+	width: 56.25px
+	height: 31.25px
+	font-size: 12.5px
+	line-height: 25.25px
+.card-text
+	display: -webkit-box
+	-webkit-box-orient: vertical
+	-webkit-line-clamp: 2
+	text-overflow: ellipsis
+	overflow: hidden
+	font-weight: 700
+	line-height: 1.5
+	font-size: 1.25rem
+.time
+	font-size: 15px
+.bookmark:hover
+	font-size: 18.75px
+.card-link:hover .card-text
+	text-decoration: underline
+.card-link:hover .btn-tag
+	color: #000
+.card-link:hover .card-img
+	transform: scale(1.1)
+	transition: 0.5s
+.card-img-con
+	aspect-ratio: 3/2
+	overflow: hidden
+	object-fit: cover
+.card-img
+	object-fit: cover
+	height: 100%
+.w-5
+	width: 15%
+	height: auto
+.w-95
+	width: 85%
+	height: auto
+.carousel-indicators [data-bs-target]
+	width: 50px
+.carousel-indicators .active 
+	width: 15%
+.btn-more1
+	height: 3rem
+	display: flex
+	justify-content: center
+	align-items: center
+	background-color: rgba(0,0,0,0.16)
+	color: #505050
+	width: auto
+	margin: 0 1.25rem
+	margin-bottom: 4rem
+	font-size:1.25rem
+	letter-spacing: 0.2em
+.btn-more1:hover
+	background-color: #b6ddf7
+	color: #2aa4f6
+	
